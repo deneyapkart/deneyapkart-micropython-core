@@ -24,6 +24,7 @@ esptool --chip esp32 --port <PORT> erase_flash
 ```python
 esptool --chip esp32 --port <PORT> --baud 460800 write_flash -z 0x1000 <DIR (Deneyap Kart MicroPython firmware path)>
 ```
+- For the example codes download [this file](https://github.com/deneyapkart/deneyapkart-micropython-core/releases/download/1.0.0/micropython_examples.rar).
 
 ### Troubleshooting
 To report any issue/bug/problem etc., please make sure you have searched the similar encountered problems first. After that, if you are sure no on else had the same issue, use the [issue template](.github/ISSUE_TEMPLATE/bug_report.md) while reporting.  

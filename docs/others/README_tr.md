@@ -24,6 +24,7 @@ esptool --chip esp32 --port <PORT> erase_flash
 ```python
 esptool --chip esp32 --port <PORT> --baud 460800 write_flash -z 0x1000 <DIR (Deneyap Kart MicroPython binary dosya yolu)>
 ```
+- Örnek uygulamalar için [bu dosyayı](https://github.com/deneyapkart/deneyapkart-micropython-core/releases/download/1.0.0/micropython_examples.rar) indirin.
 
 ### Sorun Giderme
 Herhangi bir hata/sorun bildirmeden önce, lütfen karşılaşılan benzer bir hata/sorun olup olmadığını araştırın. Araştırmanız neticesinde; benzer bir sorunla karşılaşan başka biri olmadığına emin olduğunuz takdirde, [örnek hata bildirme şablonunu](../../.github/ISSUE_TEMPLATE/bug_report_tr.md) kullanarak bildirimde bulunabilirsiniz.  
