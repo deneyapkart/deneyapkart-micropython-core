@@ -9,8 +9,6 @@ Kart hakkında detaylı bilgiye erişmek için, lütfen [Deneyap Kart Teknik Reh
 - [Deneyap Kart Pin Diyagramı](#deneyap-kart-pin-diyagramı)
 
 ### Yükleme Talimatları
-JSON index dosyası: `https://raw.githubusercontent.com/deneyapkart/deneyapkart-arduino-core/master/package_deneyapkart_index.json`
-
 - [Python 3](https://www.python.org/downloads/)'ü yükleyin.
 - Python 3 kurulumundan sonra, Terminal (Komut Satırı) açın ve en son sürüm **esptool** aracını pip3 ile yükleyin:
   ```python
