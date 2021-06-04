@@ -23,9 +23,9 @@ For more information, please visit [Deneyap Kart Technical Guide](https://docs.d
   esptool --chip esp32 --port <PORT> erase_flash
   ```
 - With flash memory erased, flash the Deneyap Kart MicroPython firmware with the following command (change the **PORT** name and **DIR** based on your details):
-```python
-esptool --chip esp32 --port <PORT> --baud 460800 write_flash -z 0x1000 <DIR (Deneyap Kart MicroPython firmware path)>
-```
+  ```python
+  esptool --chip esp32 --port <PORT> --baud 460800 write_flash -z 0x1000 <DIR (Deneyap Kart MicroPython firmware path)>
+  ```
 - For the example codes download [this file](https://github.com/deneyapkart/deneyapkart-micropython-core/releases/download/1.0.0/micropython_examples.rar).
 
 ### Troubleshooting
