@@ -1,0 +1,5 @@
+﻿mpy-cross/build
+mpy-cross/mpy-cross.map
+ports/esp32/build-DENEYAPKART
+ports/esp32/boards/DENEYAPKART/examples
+py/__pycache__/makeqstrdata.cpython-38.pyc
