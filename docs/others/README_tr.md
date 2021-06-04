@@ -13,7 +13,9 @@ JSON index dosyası: `https://raw.githubusercontent.com/deneyapkart/deneyapkart-
 
 - [Python 3](https://www.python.org/downloads/)'ü yükleyin.
 - Python 3 kurulumundan sonra, Terminal (Komut Satırı) açın ve en son sürüm **esptool** aracını pip3 ile yükleyin:
-  `pip3 install esptool`
+  ```python
+  pip3 install esptool
+  ```
 - En son sürüm [Deneyap Kart MicroPython binary](https://github.com/deneyapkart/deneyapkart-micropython-core/releases/download/1.0.0/deneyapkart_micropython_v1.0.0.bin) dosyasını indirin.
 - Deneyap Kart'ın bağlı olduğu Seri Port İsmini (**PORT**) bulun. Bu işlem için Arduino IDE'de **Ayarlar > Port** sekmesine bakabilirsiniz.
 - MicroPython binary dosyasını yüklemeden önce, Deneyap Kart'ın belleği aşağıda komumt ile silinmelidir (**PORT** ismini bir üst satırda bulduğunuz isim ile değiştirin):

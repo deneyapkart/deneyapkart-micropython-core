@@ -13,7 +13,9 @@ For more information, please visit [Deneyap Kart Technical Guide](https://docs.d
 ### Flashing Instructions
 - Install [Python 3](https://www.python.org/downloads/).
 - With Python 3 installed, open a Terminal window and install the latest stable **esptool** release with pip3:
-  `pip3 install esptool`
+  ```python
+  pip3 install esptool
+  ```
 - Download latest [Deneyap Kart MicroPython firmware](https://github.com/deneyapkart/deneyapkart-micropython-core/releases/download/1.0.0/deneyapkart_micropython_v1.0.0.bin).
 - Find the Serial Port Name (**PORT**). You may get port name via Arduino IDE from **Tools > Port**.
 - Before flashing the MicroPython firmware, Deneyap Kart flash memory needs to be erased with the following command (change the **PORT** name with the one obtained in the previous step):
