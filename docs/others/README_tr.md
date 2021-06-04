@@ -19,13 +19,13 @@ JSON index dosyası: `https://raw.githubusercontent.com/deneyapkart/deneyapkart-
 - En son sürüm [Deneyap Kart MicroPython binary](https://github.com/deneyapkart/deneyapkart-micropython-core/releases/download/1.0.0/deneyapkart_micropython_v1.0.0.bin) dosyasını indirin.
 - Deneyap Kart'ın bağlı olduğu Seri Port İsmini (**PORT**) bulun. Bu işlem için Arduino IDE'de **Ayarlar > Port** sekmesine bakabilirsiniz.
 - MicroPython binary dosyasını yüklemeden önce, Deneyap Kart'ın belleği aşağıda komumt ile silinmelidir (**PORT** ismini bir üst satırda bulduğunuz isim ile değiştirin):
-```python
-esptool --chip esp32 --port <PORT> erase_flash
-```
+  ```python
+  esptool --chip esp32 --port <PORT> erase_flash
+  ```
 - Bellek silme işleminden sonra, Deneyap Kart'a MicroPython binary dosyasını aşağıdaki komut ile yükleyin (**PORT** ve **DIR** yerine ilgili bilgileri yazın):
-```python
-esptool --chip esp32 --port <PORT> --baud 460800 write_flash -z 0x1000 <DIR (Deneyap Kart MicroPython binary dosya yolu)>
-```
+  ```python
+  esptool --chip esp32 --port <PORT> --baud 460800 write_flash -z 0x1000 <DIR (Deneyap Kart MicroPython binary dosya yolu)>
+  ```
 - Örnek uygulamalar için [bu dosyayı](https://github.com/deneyapkart/deneyapkart-micropython-core/releases/download/1.0.0/micropython_examples.rar) indirin.
 
 ### Sorun Giderme
