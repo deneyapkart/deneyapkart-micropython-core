@@ -16,7 +16,7 @@ Kart hakkında detaylı bilgiye erişmek için, lütfen [Deneyap Kart Teknik Reh
   ```
 - En son sürüm [Deneyap Kart MicroPython binary](https://github.com/deneyapkart/deneyapkart-micropython-core/releases/download/1.0.0/deneyapkart_micropython_v1.0.0.bin) dosyasını indirin.
 - Deneyap Kart'ın bağlı olduğu Seri Port İsmini (**PORT**) bulun. Bu işlem için Arduino IDE'de **Ayarlar > Port** sekmesine bakabilirsiniz.
-- MicroPython binary dosyasını yüklemeden önce, Deneyap Kart'ın belleği aşağıda komumt ile silinmelidir (**PORT** ismini bir üst satırda bulduğunuz isim ile değiştirin):
+- MicroPython binary dosyasını yüklemeden önce, Deneyap Kart'ın belleği aşağıda komut ile silinmelidir (**PORT** ismini bir üst satırda bulduğunuz isim ile değiştirin):
   ```python
   esptool --chip esp32 --port <PORT> erase_flash
   ```
